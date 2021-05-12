@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CalcButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:textSize">@dimen/calcButtonSize</item>
+        <item name="android:backgroundTint">@color/orange</item>
+    </style>
+
+    <style name="CalcButtonStyle.NewStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:textSize">@dimen/calcButtonSizeSmall</item>
+    </style>
+
+    <style name="CalcButtonStyleLight" parent="Widget.MaterialComponents.Button">
+        <item name="android:textSize">@dimen/calcButtonSize</item>
+        <item name="android:backgroundTint">@color/teal</item>
+    </style>
+
+</resources>
